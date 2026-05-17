@@ -3,25 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syntax Wear</title>
+    <title>Syntax Wear - Tênis e Sneakers Online</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/components/header.css">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
-            <!-- Logo and Navigation Links -->
-        </nav>
+        <!-- Logo and Navigation Links -->
+          <h1>
+            <a href="/" title="Syntax Wear - Tênis e Sneakers Online" class="logo">
+                <img src="./images/logo/logo.svg" alt="Syntax Wear - Tênis e Sneakers Online">
+            </a>
+         </h1>
+        
+             <!-- O atributo aria-label define um nome acessível para um elemento HTML, sendo lido por tecnologias assistivas (como leitores de tela) para descrever a finalidade do elemento. Neste caso, ele identifica e diferencia esta barra de navegação específica como a de "Categorias Principais". -->
+             <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+             </nav>
+
+             <nav class="nav-right" aria-label="Menu de Apoio e Conta">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#" aria-label="Minha Conta">
+                            <img src="./images/icons/user.svg" alt="Minha Conta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Ajuda">
+                            <img src="./images/icons/help.svg" alt="Ajuda">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Sacola de Compras">
+                            <img src="./images/icons/bag.svg" alt="Sacola de Compras">
+                        </a>
+                    </li>
+                </ul>
+             </nav>
     </header>
 
     <main class="main-content">
         <section class="hero">
             <!-- Hero Section -->
-             <h1>
-                titulo
-             </h1>
+            
         </section>
 
         <section class="categories">
